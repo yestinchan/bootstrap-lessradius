@@ -1,0 +1,21 @@
+.table-head-gray{
+    th{
+        background: @table-head-gray-color;   
+    }
+    tr:last-child{
+        border-bottom: 1px solid @table-border-color;
+    }
+}
+.table-centered{
+    th,td{text-align: center;}
+}
+.table-head-blue{
+    .table-centered();
+    th{
+        background: @table-head-blue-color;
+        color: white;
+        text-align: center;
+        border-top:0px !important;
+        border-right: 1px solid white;
+    }
+}
